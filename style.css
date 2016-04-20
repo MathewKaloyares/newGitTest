@@ -1,0 +1,21 @@
+html,body{
+	padding: 0;
+	margin: 0;
+}
+
+
+.box-img{
+	width: 200px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 4px;
+	background-image: url("http://logos.co/1024/royalty-free-bowling-wreath-and-banner-logo-by-seamartini-graphics-4440.jpg");
+	background-size: cover;
+}
+
+.section-container .section{
+	text-align: center;
+}
+.section-container .section .box-img{
+	display: inline-block;
+}
