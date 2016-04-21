@@ -1,6 +1,7 @@
 html,body{
 	padding: 0;
-	margin: 0;
+	margin: 0 30px;
+	min-width: 320px;
 }
 
 
@@ -9,13 +10,76 @@ html,body{
 	height: 200px;
 	background-color: gray;
 	border-radius: 4px;
-	background-image: url("http://logos.co/1024/royalty-free-bowling-wreath-and-banner-logo-by-seamartini-graphics-4440.jpg");
-	background-size: cover;
+	
 }
-
+.section-container{
+	border: 2px solid black;
+	margin: 5px 0;
+	padding: 10px;
+}
 .section-container .section{
 	text-align: center;
+	border: 2px solid black;
+	
 }
 .section-container .section .box-img{
 	display: inline-block;
+	margin-top: 10px;
+}
+.section .main-content{
+	width: 400px;
+	height: 200px;
+	background-color: gray;
+	border-radius: 4px;
+	display: inline-block;
+}
+.section .side-content-container{
+	
+}
+.section .side-content-container .side-content{
+	width: 200px;
+	height: 100px;
+	background-color: gray;
+	margin: 10px 30px;
+	display: inline-block;
+	border-radius: 4px;
+}
+.banner{
+	padding: 10px;
+	position: relative;
+	border: black 2px solid;
+	display: block;
+	text-align: center;
+}
+.banner  .logo {
+	width: 100px;
+	height: 50px;
+	background-color: gray;
+	border-radius: 4px;
+}
+.banner .future-ad-space{
+	width: 300px;
+	min-width: 150px;
+	height: 50px;
+	background-color: gray;
+	border-radius: 4px;
+	display: inline-block;
+	margin: 20px;
+	
+}
+nav{
+	border: 2px solid gray;
+
+}
+nav ul{
+	list-style-type: none;
+	
+}
+nav ul li{
+	display: inline;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
 }
