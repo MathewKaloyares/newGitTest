@@ -129,3 +129,18 @@ nav ul li a{
 	width: 16px;
 	height: 16px;
 }
+
+
+
+
+<!-- portfolio styling -->
+
+#port-body{
+	width: 960px;
+}
+#port-body .port-main-container{
+	text-align: center;
+}
+#port-body .port-main-container .port-main{
+	display: inline-block;
+}
