@@ -1,83 +1,111 @@
 html,body{
 	padding: 0;
-	margin: 0 30px;
-	min-width: 320px;
+	margin: 0 5px;
+	min-width: 440px;
+	
 }
 
 
 .box-img{
 	width: 200px;
-	height: 200px;
-	background-color: gray;
+	background-color: #F2eeb3;
 	border-radius: 4px;
+	margin: 5px 53px;
+	text-decoration: none;
+}
+.box-img:hover{
+	background-color: #260126;
+}
+.box-img h2{
+	background-color: #59323c;
+	color: white;
+	
 	
 }
 .section-container{
-	border: 2px solid black;
-	margin: 5px 0;
+	background-color: #bfaf80;
+	margin: 0;
 	padding: 10px;
 }
 .section-container .section{
 	text-align: center;
-	border: 2px solid black;
+	
+	
 	
 }
-.section-container .section .box-img{
+.section  .top-content-container{
+	
+	
+}
+.section  .top-content-container .box-img{
 	display: inline-block;
 	margin-top: 10px;
 }
 .section .main-content{
 	width: 400px;
-	height: 200px;
-	background-color: gray;
+	background-color: #F2eeb3;
 	border-radius: 4px;
 	display: inline-block;
+	margin: 5px 10px;
+	
+}
+ .main-content h2{
+	background-color: #59323c;
+	color: white;
 }
 .section .side-content-container{
 	
 }
 .section .side-content-container .side-content{
 	width: 200px;
-	height: 100px;
-	background-color: gray;
+	background-color: #8c6954;
 	margin: 10px 30px;
 	display: inline-block;
 	border-radius: 4px;
+
 }
 .banner{
 	padding: 10px;
 	position: relative;
-	border: black 2px solid;
+	background-color: #260126;
 	display: block;
 	text-align: center;
+	margin: 0;
 }
 .banner  .logo {
 	width: 100px;
-	height: 50px;
-	background-color: gray;
+	background-color: #F2eeb3;
 	border-radius: 4px;
+	
+	
 }
 .banner .future-ad-space{
 	width: 300px;
 	min-width: 150px;
 	height: 50px;
-	background-color: gray;
+	background-color: #F2eeb3;
 	border-radius: 4px;
 	display: inline-block;
 	margin: 20px;
 	
 }
-nav{
-	border: 2px solid gray;
 
+nav{
+	background-color: #59323c;
+	margin: 0;
+	padding: 5px 0;
 }
 nav ul{
 	list-style-type: none;
-	
+	padding: 0;
 }
 nav ul li{
 	display: inline;
+	padding: 20px 10px;
 	
+}
+nav ul li:hover{
+	background-color: #F2eeb3;
 }
 nav ul li a{
 	text-decoration: none;
