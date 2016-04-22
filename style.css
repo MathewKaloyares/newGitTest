@@ -1,16 +1,16 @@
 html,body{
 	padding: 0;
 	margin: 0 5px;
-	min-width: 440px;
+	min-width: 320px;
 	
 }
+
 
 
 .box-img{
 	width: 200px;
 	background-color: #F2eeb3;
 	border-radius: 4px;
-	margin: 5px 53px;
 	text-decoration: none;
 }
 .box-img:hover{
@@ -22,10 +22,11 @@ html,body{
 	
 	
 }
+
 .section-container{
 	background-color: #bfaf80;
 	margin: 0;
-	padding: 10px;
+	
 }
 .section-container .section{
 	text-align: center;
@@ -39,14 +40,16 @@ html,body{
 }
 .section  .top-content-container .box-img{
 	display: inline-block;
-	margin-top: 10px;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 .section .main-content{
-	width: 400px;
+	width: auto;
 	background-color: #F2eeb3;
 	border-radius: 4px;
 	display: inline-block;
-	margin: 5px 10px;
+	margin: 15px 10px;
 	
 }
  .main-content h2{
@@ -64,8 +67,9 @@ html,body{
 	border-radius: 4px;
 
 }
+
 .banner{
-	padding: 10px;
+	padding: 10px 0;
 	position: relative;
 	background-color: #260126;
 	display: block;
@@ -93,15 +97,22 @@ html,body{
 nav{
 	background-color: #59323c;
 	margin: 0;
-	padding: 5px 0;
+	padding: 0;
+	
 }
 nav ul{
 	list-style-type: none;
 	padding: 0;
+	margin: 0;
+	
 }
 nav ul li{
-	display: inline;
-	padding: 20px 10px;
+	display: inline-block;
+	padding-top: 20px; 
+	padding-bottom: 5px;
+	padding-right: 20px;
+	padding-left: 5px;
+	
 	
 }
 nav ul li:hover{
@@ -110,4 +121,11 @@ nav ul li:hover{
 nav ul li a{
 	text-decoration: none;
 	color: black;
+	font-size: 18px;
+	
+	
+}
+.git-logo{
+	width: 16px;
+	height: 16px;
 }
