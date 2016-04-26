@@ -1,0 +1,153 @@
+$purp:  #9871d5
+$white: #ffffff
+$gray: #494949
+$teal:  #15b8c0
+$green:  #2bc44b
+$orange:  #FFC300 
+
+
+
+*
+	box-sizing: border-box
+	
+h1, h2, h3, h4, h5, h6
+	font-family: courier
+	font-weight: 400
+	
+	
+.cf:before,
+.cf:after
+	content: ""
+	display: table
+.cf:after
+	clear: both
+	
+.wrapper
+	width: 1000px
+	max-width: 100%
+	margin: 0 auto
+.banner
+	padding: 3em
+	height: 100vh
+	background-image: url('assets/light-house.jpg')
+	background-size: cover
+	background-repeat: no-repeat
+	
+	.logo
+		float: left
+	h1
+		color: grey
+		test-align: right
+		font-size: 3em
+		float: right
+		display: inline
+		margin: 0
+.logo
+	background: $purp
+	border-radius: 100%
+	height: 75px
+	width: 75px
+	line-height: 75px
+	text-align: center
+	font-size: 1.1em
+	color: white
+	font-family: sans-serif
+.row
+	width: 100%
+	margin-bottom: 2em
+	
+	&:before, &:after
+		content: ""
+		display: table
+	&:after
+		clear: both
+.work
+	background: $gray
+	padding: 4em 0
+	.card
+		background: $white
+		border-radius: .35em
+		height: 450px
+		display: table
+		background-repeat: no-repeat
+	.card-full
+		width: 100%
+	.card-half
+		width: 48.5%
+		float: left
+	.card-third
+		width: 75%
+		float: left
+	.left
+		margin-right: 1.5%
+		height: 450px
+	.right
+		margin-left: 1.5%
+		height: 450px
+	.card-inner
+		display: table-cell
+		vertical-align: middle
+		height: 100%
+		padding: 1.5em 12%
+		color: $white
+		p
+			text-transform: uppercase
+			font-size: 1em
+			font-weight: 700
+		h2
+			font-size: 3em
+			margin: 0
+			
+	.card-purp, .card-green, .card-teal, .card-orange
+		border-radius: .35em
+	.card-orange
+		background: rgba(255, 195, 0, .6 )
+	.card-purp
+		background:  rgba(117, 57, 234 , .6)
+	.card-teal
+		background: rgba(57, 222, 234, .6) 
+	.card-green
+		background: rgba( 57, 234, 80 , .6)
+	.view-all
+		width: 25%
+		float: left
+		padding-left: 3em
+		height: 250px
+		p
+			font-size: 1.25em
+			font-weight: 700
+			line-height: 250px
+			margin: 0
+			color: rgba(146, 146, 171, 1)
+		a
+			text-decoration: none
+			&:hover
+				p
+					color: $purp
+footer
+	padding: 3e 0
+	.logo
+		float: left
+		margin: 0
+	ul
+		list-style: none
+		margin: 0
+		padding-top: 1em
+		li
+			display: inline
+			float: left
+			margin-left: 3em
+			.title
+				text-transform: uppercase
+				font-weight: 700
+				font-size: .75em
+				display: block
+				padding-bottom: .5em
+			.links
+				font-family: sans-serif
+				font-size: 1.25em
+				a
+					color: $gray
+					text-decoration: none
+					&:hover
+						color: $purp

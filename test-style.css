@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: courier;
+  font-weight: 400; }
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+.wrapper {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto; }
+
+.banner {
+  padding: 3em;
+  height: 100vh;
+  background-image: url("assets/light-house.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .banner .logo {
+    float: left; }
+  .banner h1 {
+    color: grey;
+    test-align: right;
+    font-size: 3em;
+    float: right;
+    display: inline;
+    margin: 0; }
+
+.logo {
+  background: #9871d5;
+  border-radius: 100%;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 1.1em;
+  color: white;
+  font-family: sans-serif; }
+
+.row {
+  width: 100%;
+  margin-bottom: 2em; }
+  .row:before, .row:after {
+    content: "";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+.work {
+  background: #494949;
+  padding: 4em 0; }
+  .work .card {
+    background: #ffffff;
+    border-radius: 0.35em;
+    height: 450px;
+    display: table;
+    background-repeat: no-repeat; }
+  .work .card-full {
+    width: 100%; }
+  .work .card-half {
+    width: 48.5%;
+    float: left; }
+  .work .card-third {
+    width: 75%;
+    float: left; }
+  .work .left {
+    margin-right: 1.5%;
+    height: 450px; }
+  .work .right {
+    margin-left: 1.5%;
+    height: 450px; }
+  .work .card-inner {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    padding: 1.5em 12%;
+    color: #ffffff; }
+    .work .card-inner p {
+      text-transform: uppercase;
+      font-size: 1em;
+      font-weight: 700; }
+    .work .card-inner h2 {
+      font-size: 3em;
+      margin: 0; }
+  .work .card-purp, .work .card-green, .work .card-teal, .work .card-orange {
+    border-radius: 0.35em; }
+  .work .card-orange {
+    background: rgba(255, 195, 0, 0.6); }
+  .work .card-purp {
+    background: rgba(117, 57, 234, 0.6); }
+  .work .card-teal {
+    background: rgba(57, 222, 234, 0.6); }
+  .work .card-green {
+    background: rgba(57, 234, 80, 0.6); }
+  .work .view-all {
+    width: 25%;
+    float: left;
+    padding-left: 3em;
+    height: 250px; }
+    .work .view-all p {
+      font-size: 1.25em;
+      font-weight: 700;
+      line-height: 250px;
+      margin: 0;
+      color: #9292ab; }
+    .work .view-all a {
+      text-decoration: none; }
+      .work .view-all a:hover p {
+        color: #9871d5; }
+
+footer {
+  padding: 3e 0; }
+  footer .logo {
+    float: left;
+    margin: 0; }
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 1em; }
+    footer ul li {
+      display: inline;
+      float: left;
+      margin-left: 3em; }
+      footer ul li .title {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 0.75em;
+        display: block;
+        padding-bottom: 0.5em; }
+      footer ul li .links {
+        font-family: sans-serif;
+        font-size: 1.25em; }
+        footer ul li .links a {
+          color: #494949;
+          text-decoration: none; }
+          footer ul li .links a:hover {
+            color: #9871d5; }
+
+/*# sourceMappingURL=test-style.css.map */
